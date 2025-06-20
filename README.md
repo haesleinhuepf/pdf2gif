@@ -10,6 +10,7 @@ A Python library and command-line tool for converting PDF files to animated GIFs
 - Automatic downsampling for better performance
 - Simple command-line interface
 - Python library for programmatic use
+- **Windows Explorer integration** with right-click context menu
 
 ## Installation
 
@@ -24,7 +25,15 @@ pip install pdf2gif
   - **macOS**: `brew install poppler`
   - **Linux**: `sudo apt-get install poppler-utils` (Ubuntu/Debian) or `sudo yum install poppler-utils` (CentOS/RHEL)
 
+## Windows Explorer Send-To
+
+Read [here](https://github.com/haesleinhuepf/pdf2gif/tree/main/scripts/README.md) how to integrate pdf2gif in the Windows Explorer right-click menu.
+
 ## Usage
+
+### Windows Explorer Send-To
+
+On Windows, just right-click on a PDF-file, select "Send To" and "Convert PDF to GIF"
 
 ### Command Line Interface
 
@@ -69,13 +78,6 @@ gif_path = convert_pdf_to_gif(
 
 print(f"GIF created at: {gif_path}")
 ```
-
-## How It Works
-
-1. **PDF Conversion**: Uses `pdf2image` to convert each PDF page to a PIL Image
-2. **Downsampling**: Reduces image size by 50% for better performance and smaller file sizes
-3. **First Slide Repetition**: Repeats the first slide according to the multiplier setting
-4. **GIF Creation**: Uses `stackview` and `PIL` to create an animated GIF with the specified frame delay
 
 ## License
 
