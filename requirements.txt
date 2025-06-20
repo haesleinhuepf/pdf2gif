@@ -1,0 +1,4 @@
+pdf2imag
+numpy
+stackview
+Pillow
