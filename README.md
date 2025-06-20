@@ -29,6 +29,8 @@ pip install pdf2gif
 
 Read [here](https://github.com/haesleinhuepf/pdf2gif/tree/main/scripts/README.md) how to integrate pdf2gif in the Windows Explorer right-click menu.
 
+![](https://github.com/haesleinhuepf/pdf2gif/raw/main/docs/images/sendto.png)
+
 ## Usage
 
 ### Windows Explorer Send-To
