@@ -147,3 +147,5 @@ cython_debug/
 # Temporary files
 *.tmp
 *.temp 
+
+deploy.bat
