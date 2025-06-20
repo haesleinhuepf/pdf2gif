@@ -1,4 +1,4 @@
-pdf2imag
+pdf2image
 numpy
 stackview
 Pillow
